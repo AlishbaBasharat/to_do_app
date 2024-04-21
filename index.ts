@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 
 let todos: any = [];
@@ -27,7 +28,7 @@ let addtask = await inquirer.prompt([
     name: "more",
     type: "confirm",
     message: "Do you want to add somthing",
-    default: false,
+    default: true,
 }
 ]);
 

@@ -1,6 +1,6 @@
 {
   "name": "alishba4413_to_do_app",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "To do app: organize tasks. plz do check my project.",
   "main": "index.js",
   "type": "module",
