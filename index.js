@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let todos = [];
 let condition = "true";
@@ -20,7 +21,7 @@ while (condition) {
             name: "more",
             type: "confirm",
             message: "Do you want to add somthing",
-            default: false,
+            default: true,
         }
     ]);
     condition = (addtask.more);
